@@ -1,0 +1,614 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Marvel:400,700,400italic);
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);*/
+
+@import url(css/font-awesome.min.css);
+
+
+html, body {
+	margin: 0;
+}
+
+.collapsible-container{
+	position:fixed;
+	margin: 0;
+	text-align: left;
+	width:300px;
+	z-index: 99;
+}
+
+.collapsible-container.topright{
+	top:0;
+	right:70px;
+}
+
+.collapsible-container.topside{
+	top:0;
+	margin-left:auto;
+margin-right:auto;
+left:0; right:0;
+}
+
+
+.collapsible-container.bottomright{
+	bottom:-300px;
+	right:70px;
+}
+
+.collapsible-container.bottomside{
+bottom:-300px;
+margin-left:auto;
+margin-right:auto;
+left:0; right:0;
+
+}
+
+
+
+.collapsible-container.rightside{
+	top:0;
+	bottom:0;
+	margin-top:auto;
+	margin-bottom:auto;
+	right:-120px;
+	height: 60px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.collapsible-container.leftside{
+	top:0;
+	bottom:0;
+	height: 60px;
+	margin-top:auto;
+	margin-bottom:auto;
+	left:-120px;
+	z-index: 99;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.collapsible-container.bottomright.rounded label,
+.collapsible-container.leftside.rounded label,
+.collapsible-container.rightside.rounded label{
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.collapsible-container.rounded article{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.collapsible-container.topright.rounded label{
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+.collapsible-container label{
+text-shadow: 0px 1px 1px rgba(0,0,0, 0.6);
+	font-family: 'Roboto', cursive;
+	padding: 5px 10px 5px 55px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height:50px;
+	cursor: pointer;
+
+	line-height: 50px;
+	font-size: 22px;
+	
+	border-bottom:3px solid;
+	-webkit-transition: all .5s;
+	-ms-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 2px rgba(0,0,0,.8);
+}
+
+.collapsible-container article iframe{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin:0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.collapsible-container.bottomright label,
+.collapsible-container.leftside label,
+.collapsible-container.rightside label{
+	border-top:3px solid;
+	border-bottom:0;
+}
+
+.collapsible-container label i {
+	overflow: hidden;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	left: 5px;
+	top: 0px;
+-webkit-font-smoothing: antialiased;
+	font-size:30px;
+	line-height:60px;
+	text-align:center;
+	-webkit-transition: all .5s;
+	-ms-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+.collapsible-container label:hover i {
+	color:#FFF;
+	font-size:30px;
+	-webkit-transition: all .5s;
+	-ms-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.collapsible-container label:hover{
+	-webkit-transition: all .5s;
+	-ms-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+.collapsible-container input:checked + label,
+.collapsible-container input:checked + label:hover{
+	text-shadow: 0px 1px 1px rgba(0,0,0, 0.6);
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	-webkit-transition: all .5s;
+	-ms-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	padding: 5px 10px;
+}
+
+.collapsible-container input:checked + label i,
+.collapsible-container input:checked + label:hover i{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+
+.collapsible-container label:hover:after,
+.collapsible-container input:checked + label:hover:after{
+ 	font-family: 'FontAwesome';
+  	font-weight: normal;
+  	font-style: normal;
+  	text-decoration: inherit;
+  	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 4px;
+	content: "\f077";
+}
+
+.collapsible-container.bottomright label:hover:after,
+.collapsible-container.rightside label:hover:after,
+.collapsible-container.leftside label:hover:after,
+.collapsible-container.bottomright input:checked + label:hover:after,
+.collapsible-container.rightside input:checked + label:hover:after,
+.collapsible-container.leftside input:checked + label:hover:after{
+	content: "\f077";
+}
+
+
+.collapsible-container input:checked + label:hover:after{
+ 	font-family: 'FontAwesome';
+  	font-weight: normal;
+  	font-style: normal;
+  	text-decoration: inherit;
+  	-webkit-font-smoothing: antialiased;
+	content: "\f078"; 
+}
+
+.collapsible-container.bottomright input:checked + label:hover:after,
+.collapsible-container.leftside input:checked + label:hover:after,
+.collapsible-container.rightside input:checked + label:hover:after{
+	content: "\f078"; 
+}
+
+.collapsible-container input{
+	display: none;
+}
+
+.collapsible-container article input { width: 98%;
+border: 1px solid #ccc;
+display: block;
+height: 25px;
+border-radius: 0px; }
+
+.collapsible-container article{
+	font-family: 'Arial', sans-serif;	
+	margin-top: -1px;
+	overflow: hidden;
+	height: 300px;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: all 0.3s ease-in-out, box-shadow 0.6s linear;
+	-moz-transition: all 0.3s ease-in-out, box-shadow 0.6s linear;
+	-o-transition: all 0.3s ease-in-out, box-shadow 0.6s linear;
+	-ms-transition: all 0.3s ease-in-out, box-shadow 0.6s linear;
+	transition: all 0.3s ease-in-out, box-shadow 0.6s linear;
+	-webkit-box-shadow:0px 0px 4px rgba(150, 150, 150, 0.8);
+	-moz-box-shadow: 0px 0px 4px rgba(150, 150, 150, 0.8);
+	box-shadow: 0px 0px 4px rgba(150, 150, 150, 0.8);
+	
+}
+
+.collapsible-container.topright article{
+	top: -360px;
+
+}
+
+.collapsible-container.topside article{
+	top: -360px;
+
+}
+
+.collapsible-container.bottomright article{
+	bottom: -300px;
+	
+}
+
+.collapsible-container.bottomside article{
+	bottom: -300px;
+	
+}
+.collapsible-container.rightside article{
+	top:300px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.collapsible-container.leftside article{
+	top:300px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.collapsible-container article p, .collapsible-container article h1, .collapsible-container article h2, .collapsible-container article h3, .collapsible-container article h4, .collapsible-container article h5, .collapsible-container article button{
+	line-height: 21px;
+font-size: 15px;
+	margin: 10px 15px 10px 15px;
+}
+
+.collapsible-container article button, .collapsible-container article input[type="submit"]{
+	-moz-box-shadow: 0 0 3px #888;
+	-webkit-box-shadow: 0 0 3px #888;
+	box-shadow: 0 0 3px #888;
+	border:0;
+	background-color:#cccccc;
+	cursor:pointer;
+	padding:5px;
+	display:block;
+	margin-bottom: 8px;
+	color: #333;
+}
+
+.collapsible-container article button:hover,  .collapsible-container article input[type="submit"]:hover{
+	background-color:white;
+	color:#000;
+	-webkit-transition: all .5s;
+	-ms-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+.collapsible-container input:checked ~ article{
+	-webkit-transition: all 0.5s ease-in-out, box-shadow 0.1s linear;
+	-moz-transition: all 0.5s ease-in-out, box-shadow 0.1s linear;
+	-o-transition: all 0.5s ease-in-out, box-shadow 0.1s linear;
+	-ms-transition: all 0.5s ease-in-out, box-shadow 0.1s linear;
+	transition: all 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+
+
+.collapsible-container.topright input:checked ~ article.collapsible-panel{
+	top: 0px;
+}
+
+.collapsible-container.topside input:checked ~ article.collapsible-panel{
+	top: 0px;
+}
+
+
+.collapsible-container.bottomside input:checked ~ article.collapsible-panel{
+	bottom:360px;
+}
+
+.collapsible-container.bottomright input:checked ~ article.collapsible-panel{
+	bottom:360px;
+}
+
+.collapsible-container.rightside input:checked ~ article.collapsible-panel{
+	top:-360px;
+}
+
+.collapsible-container.leftside input:checked ~ article.collapsible-panel{
+	top:-360px;
+}
+
+
+.collapsible-container article:before{
+	 content: "";
+	 position: fixed;
+	 top: -10px;
+	 left: 0;
+	 width: 100%;
+	 height: 10px;
+	 z-index: 100;
+}
+
+/*Color Variations*/
+.collapsible-container.grey label {
+	background:rgb(189,195,199);
+	border-color: rgb(152,163,163);
+}
+.collapsible-container.grey label:hover {
+	background:rgb(170,183,183);
+	color:#FFF;
+}
+.collapsible-container.grey input:checked + label,
+.collapsible-container.grey input:checked + label:hover{
+	color: #FFFFFF;
+	background:rgb(170,183,183); 
+}
+.collapsible-container.grey article {
+	background: rgb(236,240,241);
+}
+.collapsible-container.grey article p {
+	color:#333;
+}
+.collapsible-container.blue label {
+	background:rgb(52,152,219);
+	border-color: rgb(41,128,185);
+}
+.collapsible-container.blue label:hover {
+	background:rgb(41,128,185);
+	color:#FFF;
+}
+.collapsible-container.blue input:checked + label,
+.collapsible-container.blue input:checked + label:hover{
+	color: #FFFFFF;
+	background:rgb(41,128,185);
+}
+.collapsible-container.blue article {
+	background: rgb(236,240,241);
+}
+.collapsible-container.blue article p {
+	color:#333;
+}
+
+.collapsible-container ul.taglist {
+	margin: 20px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.collapsible-container ul.taglist li {
+	padding: 2px 5px;
+	margin: 3px 3px 0px 0px;
+	float: left;
+	color: white;
+	background-color: #666;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+} 
+
+.collapsible-container ul.taglist::after{
+	display: block;
+	content: "";	
+	clear: both;
+} 
+
+.collapsible-container.blue article button:hover, .collapsible-container.blue article input[type="submit"]:hover{
+	background:rgb(41,128,185);
+	color:#FFF;
+}
+
+
+.collapsible-container.orange label {
+	background:rgb(243,156,18);
+	border-color: rgb(241,196,15);
+	-moz-box-shadow: 0 0 5px rgb(241,196,15);
+	-webkit-box-shadow: 0 0 5px rgb(241,196,15);
+	box-shadow: 0 0 5px rgb(241,196,15);
+}
+.collapsible-container.orange label:hover {
+	background:rgb(241,196,15);
+	color:#FFF;
+}
+.collapsible-container.orange input:checked + label,
+.collapsible-container.orange input:checked + label:hover{
+	color: #FFFFFF;
+	background:rgb(241,196,15);
+}
+.collapsible-container.orange article {
+	background: rgb(236,240,241);
+}
+.collapsible-container.orange article p {
+	color:#333;
+}
+.collapsible-container.orange article button:hover,  .collapsible-container.orange article input[type="submit"]:hover{
+	background:rgb(241,196,15);
+	color:#FFF;
+}
+
+.collapsible-container.green label {
+	background:rgb(26,188,156);
+	border-color: rgb(22,160,133);
+	-moz-box-shadow: 0 0 5px rgb(22,160,133);
+	-webkit-box-shadow: 0 0 5px rgb(22,160,133);
+	box-shadow: 0 0 5px rgb(22,160,133);
+}
+.collapsible-container.green label:hover {
+	background:rgb(22,160,133);
+	color:#FFF;
+}
+.collapsible-container.green input:checked + label,
+.collapsible-container.green input:checked + label:hover{
+	color: #FFFFFF;
+	background:rgb(22,160,133);
+}
+.collapsible-container.green article {
+	background: rgb(236,240,241);
+}
+.collapsible-container.green article p {
+	color:#333;
+}
+.collapsible-container.green article button:hover,  .collapsible-container.green article input[type="submit"]:hover{
+	background:rgb(22,160,133);
+	color:#FFF;
+}
+
+
+.collapsible-container.dark label {
+	background:rgb(5,5,5);
+	color:#EEEEEE;
+	border-color: rgb(20,20,20);
+	-moz-box-shadow: 0 0 5px rgb(100,100,100);
+	-webkit-box-shadow: 0 0 5px rgb(100,100,100);
+	box-shadow: 0 0 5px rgb(100,100,100);
+}
+.collapsible-container.dark label:hover {
+	background:rgb(50,50,50);
+	color:#FFF;
+}
+.collapsible-container.dark input:checked + label,
+.collapsible-container.dark input:checked + label:hover{
+	color: #FFFFFF;
+	background:rgb(50,50,50);
+}
+.collapsible-container.dark article {
+	background: rgb(20,20,20);
+}
+.collapsible-container.dark article p {
+	color:#FFF;
+}
+.collapsible-container.dark .collapsible-panel i.background{
+	color:rgba(255,255,255,0.15);
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+	border:4px solid rgba(255,255,255,0.15);
+	-webkit-transition: all .5s;
+	-ms-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+.collapsible-container.dark article button:hover,  .collapsible-container.dark article input[type="submit"]:hover{
+	background:rgb(50,50,50);
+	color:#FFF;
+}
+
+.collapsible-container.pink label {
+	background:rgb(255,131,139);
+	color:#EEEEEE;
+	border-color: rgb(227,70,96);
+	-moz-box-shadow: 0 0 5px rgb(100,100,100);
+	-webkit-box-shadow: 0 0 5px rgb(100,100,100);
+	box-shadow: 0 0 5px rgb(100,100,100);
+}
+.collapsible-container.pink label:hover {
+	background:rgb(227,70,96);
+	color:#FFF;
+}
+.collapsible-container.pink input:checked + label,
+.collapsible-container.pink input:checked + label:hover{
+	color: #FFFFFF;
+	background:rgb(227,70,96);
+}
+.collapsible-container.pink article {
+	background: rgb(245,240,240);
+}
+.collapsible-container.pink article p {
+	color:#999;
+	z-index:5;
+}
+
+.collapsible-container.pink article button:hover:  .collapsible-container.pink article input[type="submit"]:hover{
+	background:rgb(255,131,139);
+	color:#FFF;
+}
+
+
+/*Contact Form 7 integration*/
+
+.collapsible-container article span.wpcf7-not-valid-tip {
+text-align: right;
+display: block;
+position: absolute;
+top: 85%;
+right: 0;
+z-index: 100;
+color: #ff0000;
+font-size: 10pt;
+width: 80%;
+padding: 2px;
+background:transparent;
+border:0px
+}
+
+.collapsible-container article span.wpcf7-form-control-wrap { display:block}
+.collapsible-container article span.wpcf7-not-valid-tip { display:block}
+
+.collapsible-container article .wpcf7 .wpcf7-response-output {
+font-size: 14px;
+margin: -34px 0.5em 1em;
+}
+
+#_cmb_strip_icon {
+font-family: 'fontawesome';
+}
+
+.sneak-left-top { margin-top:15px !important; top: 120px !important; }
+.sneak-left-bottom { margin-bottom:15px  !important; bottom: 120px !important}
+.sneak-right-top { margin-top:15px  !important; top: 120px !important;}
+.sneak-right-bottom { margin-bottom:15px  !important; bottom:120px !important;}
+.sneak-top-right { margin-right:15px  !important}
+.sneak-top-left { margin-left:15px  !important}
+.sneak-bottom-right { margin-right:15px  !important}
+.sneak-bottom-left { margin-left:15px  !important}
