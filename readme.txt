@@ -1,6 +1,6 @@
 === Sneakers ===
 
-Tags: Collapsible Panels, slides, featured content, featured area
+Tags: Collapsible Panels, slides, featured content,
 Requires at least: 3.0.1
 Stable tag: 1.0
 License: GPLv2 or later
@@ -23,11 +23,13 @@ Perfect for forms, featured content, contact information
 Support all major browsers
 
 Add new Sneaker Screen
+
 * Title: it will be the text on the strip on panel. Ex: Locate Us, Announcement, etc
 * Description: this goes inside the panel, so try to be brief and add link to complete article if any.
 * Content area: here you can select any background image for panel or select any background color .
  
 Strip design
+ 
 * Strip color: You can select out of 6 colors for now. (more to come)
 * Font-color: Select font-color for text on panel strip
 * Font-awesome code: Select any FA icon code that you need to display beside text on panel strip.
@@ -35,6 +37,7 @@ Strip design
 http://fortawesome.github.io/Font-Awesome/icons/
  
 Display area 
+
 * Front Page: Check if you want Sneaker to display just on Home page
 * Select Post type: Selected post type will display particular sneaker on all its posts.
 * Select display area and its alignment: Select position of sneaker where you want to display it on front-end.
