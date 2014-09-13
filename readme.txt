@@ -24,25 +24,25 @@ Support all major browsers
 
 Add new Sneaker Screen
  
-Title: it will be the text on the strip on panel. Ex: Locate Us, Announcement, etc
-Description: this goes inside the panel, so try to be brief and add link to complete article if any. 
-Content area: here you can select any background image for panel or select any background color .
+* Title: it will be the text on the strip on panel. Ex: Locate Us, Announcement, etc
+* Description: this goes inside the panel, so try to be brief and add link to complete article if any.
+* Content area: here you can select any background image for panel or select any background color .
  
 Strip design
  
-Strip color: You can select out of 6 colors for now. (more to come)
-Font-color: Select font-color for text on panel strip
-Font-awesome code: Select any FA icon code that you need to display beside text on panel strip. 
-Icon-color:  select color for FA icon. Refer to link below to choose your icons.
+* Strip color: You can select out of 6 colors for now. (more to come)
+* Font-color: Select font-color for text on panel strip
+* Font-awesome code: Select any FA icon code that you need to display beside text on panel strip.
+* Icon-color:  select color for FA icon. Refer to link below to choose your icons.
 http://fortawesome.github.io/Font-Awesome/icons/
  
 Display area 
  
-Front Page: Check if you want Sneaker to display just on Home page
-Select Post type: Selected post type will display particular sneaker on all its posts.
-Select display area and its alignment: Select position of sneaker where you want to display it on front-end.
-Shortcode: Add any shortcode and it will displayed in panel content area.
-Position: You can choose between 12 different positions (more to come).
+* Front Page: Check if you want Sneaker to display just on Home page
+* Select Post type: Selected post type will display particular sneaker on all its posts.
+* Select display area and its alignment: Select position of sneaker where you want to display it on front-end.
+* Shortcode: Add any shortcode and it will displayed in panel content area.
+* Position: You can choose between 12 different positions (more to come).
 
 P.S. If you want only 1 individual page to show a sneaker. Edit that page and select from Sneaker(s) box, save it. Thats it!
 
