@@ -1,13 +1,14 @@
-Plugin Name: Sneakers
-Version: 1.0
-Author URI: #
-Plugin URI: #
-Description:  Simply add visually appealing content in any direction of screen. Supports shortcode, custom colors, 12 different location on screen.
-Author: Gangesh Matta
+=== Sneakers ===
+
+Tags: Collapsible Panels, slides, featured content, 
+Requires at least: 3.0.1
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
-Overview
--------------------------
+
+== Description ==
 
 Sneakers is advanced wordpress plugin that display Collapsible Panels on different corners of screen with any resolution, without any use of jQuery or Javascript.
 Features
@@ -20,19 +21,6 @@ Custom background for panel content area
 CSS3 Animations, no javascript
 Perfect for forms, featured content, contact information
 Support all major browsers
-
-
- 
-Installation
--------------------------
-
-Upload the plugin folder sneakers to the /wp-content/plugins/ directory
-Activate the plugin through the Plugins menu in WordPress
-Go to Sneakers->Add Sneaker in your WordPress-Admin-Panel. Select options as per your needs.
-If you want only 1 individual page to show a sneaker. Edit that page and select from Sneaker(s) box, save it. Thats it!
- 
-Options
-----------------------------
 
 Add new Sneaker Screen
  
@@ -56,8 +44,18 @@ Select display area and its alignment: Select position of sneaker where you want
 Shortcode: Add any shortcode and it will displayed in panel content area.
 Position: You can choose between 12 different positions (more to come).
 
+P.S. If you want only 1 individual page to show a sneaker. Edit that page and select from Sneaker(s) box, save it. Thats it!
 
-SUPPORT
--------------------
 
-Please use wordpress.org support forum for any kind of request or bugs.
+
+== Installation ==
+
+1. Log in to your website administrator panel.
+2. Go to Plugins page, and add new plugin.
+3. Upload sneakers.zip
+4. Click Install Now button.
+5. Then click Activate Plugin button.
+
+Now go to Sneakers->Add Sneaker in left panel. Select options as per your needs.
+
+
