@@ -22,6 +22,8 @@ CSS3 Animations, no javascript
 Perfect for forms, featured content, contact information
 Support all major browsers
 
+<a target="_blank" href="http://webtechforce.com/sneakers/"> DEMO </a>
+
 Add new Sneaker Screen
 
 * Title: it will be the text on the strip on panel. Ex: Locate Us, Announcement, etc
