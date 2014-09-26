@@ -1,11 +1,11 @@
 <?php
 /*
 
-Plugin Name: Sneakers
+Plugin Name: Sneakers - CSS3 Collapsible Panels
 Version: 1.0
 Author URI: http://getcluey.com/
 Plugin URI: http://getcluey.com/sneaker
-Description:  Simply add visually appealing content in any direction of screen. Supports shortcode, custom colors, 12 different location on screen.
+Description:  Simply add visually appealing Collapsible Panels in any direction of screen without use of any JS or jQuery. Supports shortcode, custom colors, 12 different location on screen.
 Author: Gangesh Matta
 
 */

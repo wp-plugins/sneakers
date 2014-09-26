@@ -1,6 +1,6 @@
 === Sneakers ===
 
-Tags: Collapsible Panels, slides, featured content, slide-in, pop-in, overlap, quick look, advertise, display
+Tags: CSS3, CSS3 Collapsible Panels, Collapsible Panels, slides, featured content, slide-in, pop-in, overlap, quick look, advertise, display
 Requires at least: 3.0.1
 Stable tag: 1.0
 License: GPLv2 or later
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Sneakers is advanced wordpress plugin that display Collapsible Panels on different corners of screen with any resolution, without any use of jQuery or Javascript.
+Sneakers is advanced Wordpress plugin that display Collapsible Panels on different corners of screen with any resolution, without any use of jQuery or Javascript.
 Features
 Page and post-type control
 Shortcode support

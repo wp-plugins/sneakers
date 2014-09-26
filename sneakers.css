@@ -569,7 +569,7 @@ font-size: 15px;
 	z-index:5;
 }
 
-.collapsible-container.pink article button:hover:  .collapsible-container.pink article input[type="submit"]:hover{
+.collapsible-container.pink article button:hover, .collapsible-container.pink article input[type="submit"]:hover{
 	background:rgb(255,131,139);
 	color:#FFF;
 }
