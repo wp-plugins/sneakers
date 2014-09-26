@@ -5,7 +5,7 @@ Plugin Name: Sneakers CSS3 Collapsible Panels
 Version: 1.0
 Author URI:
 Plugin URI: http://webtechforce.com/sneakers/
-Description:  Simply add visually appealing Collapsible Panels in any direction of screen w/o use jQuery. Supports shortcode, custom colors, 12 different location on screen.
+Description:  Simply add visually appealing Collapsible Panels in any direction of screen w/o use jQuery. Supports shortcode, custom colors, 12 different location.
 Author: Gangesh Matta
 
 */
