@@ -1,6 +1,6 @@
 === Sneakers ===
 
-Tags: Collapsible Panels, slides, featured content,
+Tags: Collapsible Panels, slides, featured content, slide-in, pop-in, overlap, quick look, advertise, display
 Requires at least: 3.0.1
 Stable tag: 1.0
 License: GPLv2 or later
