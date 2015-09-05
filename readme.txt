@@ -22,7 +22,7 @@ CSS3 Animations, no javascript
 Perfect for forms, featured content, contact information
 Support all major browsers
 
-<a target="_blank" href="http://webtechforce.com/sneakers/"> DEMO </a>
+
 
 Add new Sneaker Screen
 
@@ -61,3 +61,6 @@ P.S. If you want only 1 individual page to show a sneaker. Edit that page and se
 Now go to Sneakers->Add Sneaker in left panel. Select options as per your needs.
 
 
+== Screenshots ==
+
+1. Front
