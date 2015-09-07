@@ -1,5 +1,5 @@
 === Sneakers ===
-
+Contributors: gangesh
 Tags: CSS3, CSS3 Collapsible Panels, Collapsible Panels, slides, featured content, slide-in, pop-in, overlap, quick look, advertise, display
 Requires at least: 3.0.1
 Stable tag: 1.0
