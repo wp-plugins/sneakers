@@ -48,7 +48,7 @@ Display area
 
 P.S. If you want only 1 individual page to show a sneaker. Edit that page and select from Sneaker(s) box, save it. Thats it!
 
-Feel free to suggests features.
+Feel free to suggests new features.
 
 == Installation ==
 
