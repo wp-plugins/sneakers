@@ -10,45 +10,41 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Sneakers is advanced Wordpress plugin that display Collapsible Panels on different corners of screen with any resolution, without any use of jQuery or Javascript.
-Features
-Page and post-type control
-Shortcode support
-Font-Awesome integration
-Custom background for panel content area
-12 different positions (more to come)
-6 color variations (more to come)
-CSS3 Animations, no javascript
-Perfect for forms, featured content, contact information
-Support all major browsers
+Easily add visually appealing Collapsible Panels facing any direction on the screen, without jQuery. Supports Shortcode, Custom Colors and 12 different locations.
+Sneakers is an advanced WordPress plugin that creates and displays Collapsible Panels on different corners of screen designed for use on any resolution. Better yes, it is done without any use of jQuery or Javascript.
+
+Features:
+
+* Page and post-type control
+* Shortcode support
+* Font-Awesome integration
+* Custom backgrounds for the panel content faces
+* 12 different positions (we aim to release further positions in due course)
+* 6 color variations (we aim to release more variations in due course)
+* CSS3 Animations
+* No JavaScript
+
+This plugin is perfect for forms, featured content, and contact information. Most importantly, it supports all major browsers.
+How to add a new Sneaker Screen
+Title: This will be the text shown on the strip which overlays the panel. Example: ‘Locate Us’, ‘Announcement’, etc.
+Description: the description is the text shown inside the panel, so try to be brief here and add link to complete the article if there are any.
+Content area: here you can select any background image for your panel or select one of the background colors.
+Strip design:
+Strip color: You can select from 6 colors at present. (we aim to release more variations in due course)
+Font-color: Select the font-color for the text on the panel strip.
+Font-Awesome code: Select any FA icon code that you need to display beside the text on the panel strip.
+Icon-color: select your chosen color for the FA icon. Refer to the following link below to choose your icons. http://fortawesome.github.io/Font-Awesome/icons/
+Display area
+Front Page: Check if you want Sneakers to display just on Home page contrary to other locations.
+Select Post type: The selected post type will display particular sneaker on all of its posts.
+Specify the display area and alignment: Select the position of Sneaker, this will specify where you want to display it on the front-end of your website.
+Shortcode: Add any Shortcode and it will displayed in the panel content area.
+Position: You can choose between 12 different positions (we aim to release more variations in due course).
 
 
-
-Add new Sneaker Screen
-
-* Title: it will be the text on the strip on panel. Ex: Locate Us, Announcement, etc
-* Description: this goes inside the panel, so try to be brief and add link to complete article if any.
-* Content area: here you can select any background image for panel or select any background color .
- 
-Strip design
- 
-* Strip color: You can select out of 6 colors for now. (more to come)
-* Font-color: Select font-color for text on panel strip
-* Font-awesome code: Select any FA icon code that you need to display beside text on panel strip.
-* Icon-color:  select color for FA icon. Refer to link below to choose your icons.
-http://fortawesome.github.io/Font-Awesome/icons/
- 
-Display area 
-
-* Front Page: Check if you want Sneaker to display just on Home page
-* Select Post type: Selected post type will display particular sneaker on all its posts.
-* Select display area and its alignment: Select position of sneaker where you want to display it on front-end.
-* Shortcode: Add any shortcode and it will displayed in panel content area.
-* Position: You can choose between 12 different positions (more to come).
-
-P.S. If you want only 1 individual page to show a sneaker. Edit that page and select from Sneaker(s) box, save it. Thats it!
-
-Feel free to suggests new features.
+TIPS:
+- If you want only 1 individual page to show a sneaker. Edit the specified page and select it from the Sneaker(s) box. Finally save it. It is as easy as that.
+We invite you to suggest features to us so we can continue to improve our products.
 
 == Installation ==
 
